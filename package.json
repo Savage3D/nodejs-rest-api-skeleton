@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-rest-api-skeleton",
+  "version": "1.0.0",
+  "description": "REST API skeleton for Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "express.js",
+    "MongoDB",
+    "JWT"
+  ],
+  "author": "Sergiy Meschanchuk",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  }
+}
